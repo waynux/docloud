@@ -9,7 +9,7 @@ How to Use
 
 1. Install http://www.sinatrarb.com/
 
-2. Configure your AWS account http://aws.amazon.com/.(Simple Storage Service)
+2. Configure your AWS account http://aws.amazon.com/. (Simple Storage Service)
 
 
 Credits
