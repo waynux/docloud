@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cloud</title>
+</head>
+<body>
+	<header>
+	<h1>Choose one to download or edit</h1>
+	</header>
+	
+	<h2>Bucket - <%= @bucket.name %></h2>
+	
+	Total <%= @bucket.objects.size %> object(s).
+	
+	<a href="/buckets/<%= @bucket.name %>/new">Upload new file</a>
+	<ul>
+	<% @bucket.objects.each do |object| %>
+	
+	<li><a href="<%= object.url %>"><%= object.key %></a>   <a href="/edit/<%= object.key %>">Edit</a></li> 
+	
+	<% end %>
+	</ul>
+		
+</body>	
+</html>
