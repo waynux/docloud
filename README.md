@@ -1,4 +1,4 @@
-docloud
+Docloud
 =======
 
 Docloud is a personal experiment which demonstrates how to build a online document editor using open source tools.
